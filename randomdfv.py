@@ -1,0 +1,1 @@
+list1=["leaf", "cream", "pickles", "vinegar", "gouda", "almond", "fire", "orbit", "spider", "symbol", "avijit"]
