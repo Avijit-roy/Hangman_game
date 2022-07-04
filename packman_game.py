@@ -84,7 +84,7 @@ while td.lower() == "y":
         if a in doi and a not in do:
             dis[word.index(a)] = a
             print(dis)
-            playsound(r"mixkit-arcade-score-interface-217.wav")
+            playsound(r"C:\Users\aj529\Downloads\mixkit-arcade-score-interface-217.wav")
             situation(m)
             do.append(a)
             if sorted(doi) == sorted(do):
@@ -93,7 +93,7 @@ while td.lower() == "y":
                 m = 7
         else:
             print(dis)
-            playsound(r"mixkit-retro-arcade-lose-2027.wav")
+            playsound(r"C:\Users\aj529\Downloads\mixkit-retro-arcade-lose-2027.wav")
             print("wrong answer....!")
             m += 1
             x -= 1
