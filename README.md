@@ -1,2 +1,2 @@
-# minor_projects-in-python
-<h1>do it</h1>
+<h1>PACK MAN GAME</h>
+#if there any error seettle play_sound paths
