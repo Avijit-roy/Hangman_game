@@ -1,6 +1,5 @@
 from randomdfv import list1
 import random
-from playsound import playsound
 from time import sleep
 import os
 
@@ -84,7 +83,6 @@ while td.lower() == "y":
         if a in doi and a not in do:
             dis[word.index(a)] = a
             print(dis)
-            playsound(r"C:\Users\aj529\Downloads\mixkit-arcade-score-interface-217.wav")
             situation(m)
             do.append(a)
             if sorted(doi) == sorted(do):
@@ -92,8 +90,7 @@ while td.lower() == "y":
                 print("\tthe word was", word)
                 m = 7
         else:
-            print(dis)
-            playsound(r"C:\Users\aj529\Downloads\mixkit-retro-arcade-lose-2027.wav")
+            print(dis)            
             print("wrong answer....!")
             m += 1
             x -= 1
