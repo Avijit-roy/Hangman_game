@@ -3,6 +3,16 @@ import random
 from time import sleep
 import os
 
+# created by Avijit roy
+def clear():
+    # for windows
+    if name == 'nt':
+        _ = system('cls')
+ 
+    # for mac and linux(here, os.name is 'posix')
+    else:
+        _ = system('clear')
+
 
 def situation(dj):
     if dj == 1:
@@ -95,7 +105,7 @@ while td.lower() == "y":
             m += 1
             x -= 1
             situation(m)
-    os.system('cls')
+    clear()
     sleep(5)
     td = input("wanna play again y/n:  ")
 else:
