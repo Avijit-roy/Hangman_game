@@ -1,5 +1,4 @@
 <h1> Hang man game </h1>
-<hr>
 1. apt install python3
 <br>
 2. apt install git
