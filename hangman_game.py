@@ -1,7 +1,7 @@
 from randomdfv import list1
 import random
 from time import sleep
-from os import name
+from os import system, name
 
 # created by Avijit roy
 def clear():
